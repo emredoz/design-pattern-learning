@@ -6,6 +6,7 @@ public class AdaptorMain {
         Movable mercedes = new Mercedes();
         MovableAdapter adaptor = new MovableAdapterImpl(mercedes);
         System.out.println(adaptor.getSpeed());
+
     }
 
 }
