@@ -1,4 +1,4 @@
-package emre.adaptor;
+package emre.adapter;
 
 public class MovableAdapterImpl implements MovableAdapter {
     private Movable luxuryCars;

@@ -1,4 +1,4 @@
-package emre.adaptor;
+package emre.adapter;
 
 public interface Movable {
 

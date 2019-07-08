@@ -1,4 +1,4 @@
-package emre.adaptor;
+package emre.adapter;
 
 public class Mercedes implements Movable {
     @Override

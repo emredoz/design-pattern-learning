@@ -8,7 +8,7 @@ public class FacadeMain {
         CustomerOperations cu = new CustomerOperations();
         InterestOperations in = new InterestOperations();
         Operations operations = new OperationsImpl(ac, cu, in);
-        // using operations
+        // using facade by clients
         System.out.println(operations.getAmaount());
         System.out.println(operations.getCustomerInformation());
         System.out.println(operations.getMonthlyInterest());
