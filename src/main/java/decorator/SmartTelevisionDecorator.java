@@ -17,7 +17,7 @@ public abstract class SmartTelevisionDecorator implements Television {
         television.turnOff();
     }
 
-    public void connectInternet(){
+    public void connectInternet() {
         System.out.println("Television connected internet");
     }
 }

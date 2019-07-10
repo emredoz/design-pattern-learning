@@ -4,7 +4,7 @@ package singleton;
 import java.io.Serializable;
 
 public class SingletonImpl_v5 implements Cloneable, Serializable {
-// Solution for Thread, Performance, Clone
+    // Solution for Thread, Performance, Clone
     private SingletonImpl_v5() {
     }
 
@@ -19,7 +19,7 @@ public class SingletonImpl_v5 implements Cloneable, Serializable {
     }
 
 
-    public static SingletonImpl_v5 getRepository(){
+    public static SingletonImpl_v5 getRepository() {
         return LazyInit.repository;
     }
 

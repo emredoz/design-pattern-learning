@@ -1,7 +1,7 @@
 package singleton;
 
 public class SingletonImpl_v2 {
-// Synchronized
+    // Synchronized
 // Performance issue
     private static SingletonImpl_v2 repository = null;
 

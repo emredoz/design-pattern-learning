@@ -1,7 +1,7 @@
 package singleton;
 
 public class SingletonImpl_v1 {
-// DoubleCheck
+    // DoubleCheck
 // Tread problem
     private static SingletonImpl_v1 repository;
 

@@ -1,5 +1,5 @@
 package factory;
 
 public enum CarBrand {
-    MERCEDES, BMW, VOLKSWAGEN;
+    MERCEDES, BMW, VOLKSWAGEN
 }

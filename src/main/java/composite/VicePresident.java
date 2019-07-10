@@ -18,6 +18,6 @@ public class VicePresident extends Employee implements EmployeeProcess {
 
     @Override
     public void assignProject(String projectDescription, Employee employee) {
-        System.out.println("Vice President assign " + projectDescription +" project "+ " turnOn :" + employee);
+        System.out.println("Vice President assign " + projectDescription + " project " + " turnOn :" + employee);
     }
 }

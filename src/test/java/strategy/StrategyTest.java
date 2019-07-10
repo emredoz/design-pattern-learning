@@ -5,7 +5,7 @@ import org.junit.Test;
 public class StrategyTest {
 
     @Test
-    public void test(){
+    public void test() {
         // creating objects
         Customer customer = new Customer();
         Notify emailService = new EmailService();

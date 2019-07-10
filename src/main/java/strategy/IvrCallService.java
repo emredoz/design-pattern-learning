@@ -6,7 +6,7 @@ public class IvrCallService implements Notify {
         call(customer);
     }
 
-    private void call(Customer customer){
+    private void call(Customer customer) {
         System.out.println("Called to : " + customer);
     }
 }

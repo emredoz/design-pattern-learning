@@ -2,7 +2,7 @@ package facade;
 
 public class CustomerOperations {
 
-    public String getCustomerInformation(){
+    public String getCustomerInformation() {
         return "Name: Emre Surname: Oz";
     }
 }
